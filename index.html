@@ -1,99 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Filmes</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main>
-    <h2>Filmes Populares</h2>
-    <div class="input-container">
-      <input type="text" name="movie-name" id="movie-name" placeholder="Digite algum filme para pesquisar...">
-      <img src="images/search-icon.svg" alt="Ícone de pesquisa" class="searchIcon">
-    </div>
-    <div class="showOnlyFavorites">
-      <input type="checkbox" name="onlyFavorites" id="onlyFavorites">
-      <label for="onlyFavorites">Mostrar apenas meus filmes favoritos</label>
-    </div>
-    <div class="movies">
-      <div class="movie">
-        <div class="movie-informations">
-          <div class="movie-image">
-            <img src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg" alt="Batman (2022)"/>
-          </div>
-          <div class="movie-text">
-            <h4>Batman (2022)</h4>
-            <div class="rating-favorites">
-              <div class="rating">
-                <img src="images/star.png" alt="Star Icon"/>
-                <span>9.2</span>
-              </div>
-              <div class="favorite">
-                <img src="images/heart.svg" alt="Star Icon"/>
-                <span>Favoritar</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filmes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h2>Filmes Populares</h2>
+      <div class="input-container">
+        <input
+          type="text"
+          name="movie-name"
+          id="movie-name"
+          placeholder="Digite algum filme para pesquisar..."
+        />
+        <img
+          src="images/search-icon.svg"
+          alt="Ícone de pesquisa"
+          class="searchIcon"
+        />
+      </div>
+      <div class="showOnlyFavorites">
+        <input type="checkbox" name="onlyFavorites" id="onlyFavorites" />
+        <label for="onlyFavorites">Mostrar apenas meus filmes favoritos</label>
+      </div>
+      <div class="movies">
+        <div class="movie">
+          <div class="movie-informations">
+            <div class="movie-image">
+              <img
+                src="https://media.fstatic.com/c6wUepWJFD1yBBCPXMbBqJbY6CU=/210x312/smart/media/movies/covers/2022/05/images_2_xLxCy9P.jpeg"
+                alt="Agente Oculto (2022)"
+              />
+            </div>
+            <div class="movie-text">
+              <h4>Agente Oculto (2022)</h4>
+              <div class="rating-favorites">
+                <div class="rating">
+                  <img src="images/star.png" alt="Star Icon" />
+                  <span>9.2</span>
+                </div>
+                <div class="favorite">
+                  <img src="images/heart.svg" alt="Star Icon" />
+                  <span>Favoritar</span>
+                </div>
               </div>
             </div>
           </div>
+          <div class="movie-description">
+            <span>
+              Court Gentry é um antigo agente da CIA que agora atua como
+              assassino de aluguel, chamado Gray Man. Ele será caçado pelo
+              ex-colega de CIA Lloyd Hansen.
+            </span>
+          </div>
         </div>
-        <div class="movie-description">
-          <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
-        </div>
-      </div>
 
-      <div class="movie">
-        <div class="movie-informations">
-          <div class="movie-image">
-            <img src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg" alt="Batman (2022)"/>
-          </div>
-          <div class="movie-text">
-            <h4>Batman (2022)</h4>
-            <div class="rating-favorites">
-              <div class="rating">
-                <img src="images/star.png" alt="Star Icon"/>
-                <span>9.2</span>
-              </div>
-              <div class="favorite">
-                <img src="images/heart.svg" alt="Star Icon"/>
-                <span>Favoritar</span>
+        <div class="movie">
+          <div class="movie-informations">
+            <div class="movie-image">
+              <img
+                src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg"
+                alt="Batman (2022)"
+              />
+            </div>
+            <div class="movie-text">
+              <h4>Batman (2022)</h4>
+              <div class="rating-favorites">
+                <div class="rating">
+                  <img src="images/star.png" alt="Star Icon" />
+                  <span>9.2</span>
+                </div>
+                <div class="favorite">
+                  <img src="images/heart.svg" alt="Star Icon" />
+                  <span>Favoritar</span>
+                </div>
               </div>
             </div>
           </div>
+          <div class="movie-description">
+            <span>
+              Com apenas alguns aliados de confiança - Alfred Pennyworth e o
+              tenente James Gordon - entre a rede corrupta de funcionários e
+              figuras importantes do distrito, o vigilante solitário Batman está
+              em seu segundo ano de carreira e se estabeleceu como a única
+              personificação da vingança entre seus concidadãos.
+            </span>
+          </div>
         </div>
-        <div class="movie-description">
-          <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
-        </div>
-      </div>
 
-      <div class="movie">
-        <div class="movie-informations">
-          <div class="movie-image">
-            <img src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg" alt="Batman (2022)"/>
-          </div>
-          <div class="movie-text">
-            <h4>Batman (2022)</h4>
-            <div class="rating-favorites">
-              <div class="rating">
-                <img src="images/star.png" alt="Star Icon"/>
-                <span>9.2</span>
-              </div>
-              <div class="favorite">
-                <img src="images/heart.svg" alt="Star Icon"/>
-                <span>Favoritar</span>
+        <div class="movie">
+          <div class="movie-informations">
+            <div class="movie-image">
+              <img
+                src="https://media.fstatic.com/zM4ACprFnHgXWDeff0ZWdEPqr_s=/210x312/smart/media/movies/covers/2019/07/top_gun_maverick.jpg"
+                alt="Top Gun: Maverick (2022)"
+              />
+            </div>
+            <div class="movie-text">
+              <h4>Top Gun: Maverick (2022)</h4>
+              <div class="rating-favorites">
+                <div class="rating">
+                  <img src="images/star.png" alt="Star Icon" />
+                  <span>9.2</span>
+                </div>
+                <div class="favorite">
+                  <img src="images/heart.svg" alt="Star Icon" />
+                  <span>Favoritar</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="movie-description">
-          <span>Lorem Ipsum is simply Lar dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+          <div class="movie-description">
+            <span
+              >Após 34 anos na força, o lendário Capitão Pete "Maverick"
+              Mitchell (Tom Cruise) se torna o novo instrutor de voo da Top Gun,
+              fazendo com que ele seja o mentor de Bradley Bradshaw (Miles
+              Teller), o filho de Goose, que busca ser um piloto melhor do que o
+              seu pai foi.</span
+            >
+          </div>
         </div>
       </div>
-    </div>
-  </main>
-</body>
+    </main>
+  </body>
 </html>
