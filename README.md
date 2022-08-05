@@ -10,4 +10,4 @@ O tema disponível no momento é: 7 dias de código - GitHub, portanto, esse rep
 1. Alteração dos arquivos no repositório local, commit e atualização do repositório remoto com o comando git push
 1. Revertendo um commit
 1. Enfrentando desafios com o merge e resolvendo conflitos
-1. 🚧 Em construção
+1. Fazendo o deploy no GitHub Pages
