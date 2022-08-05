@@ -11,3 +11,6 @@ O tema disponível no momento é: 7 dias de código - GitHub, portanto, esse rep
 1. Revertendo um commit
 1. Enfrentando desafios com o merge e resolvendo conflitos
 1. Fazendo o deploy no GitHub Pages
+
+## 📁 Acesso ao projeto
+Você pode acessar o meu cartão de visitas através desse [link](https://andressalmachado.github.io/7DaysOfCode-GitHub//).
