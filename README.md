@@ -13,4 +13,4 @@ O tema disponível no momento é: 7 dias de código - GitHub, portanto, esse rep
 1. Fazendo o deploy no GitHub Pages
 
 ## 📁 Acesso ao projeto
-Você pode acessar o meu cartão de visitas através desse [link](https://andressalmachado.github.io/7DaysOfCode-GitHub//).
+Você pode acessar o projeto através desse [link](https://andressalmachado.github.io/7DaysOfCode-GitHub//).
